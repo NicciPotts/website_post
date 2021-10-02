@@ -13,7 +13,7 @@ font_add_google('PT Sans', 'ptsans')
 
 
 #Scottish Household Survey - sport quintile breakdown
-T8Q18 <- read_csv("SHS data/data/topic8question18.csv")
+T8Q18 <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/topic8question18.csv")
 #changing * and - to na
 T8Q18 <- na_if(T8Q18, '*')
 T8Q18 <- na_if(T8Q18, "-")
@@ -22,7 +22,7 @@ T8Q18 <- T8Q18 %>% select(-X1) %>% rename("Activity" = X4)
 
 
 #Scottish Household Survey - neighbourhood rating
-T4Q3 <- read_csv("SHS data/data/topic4question3.csv")
+T4Q3 <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/topic4question3.csv")
 #changing * and - to na
 T4Q3 <- na_if(T4Q3, '*')
 T4Q3 <- na_if(T4Q3, "-")
@@ -31,7 +31,7 @@ T4Q3 <- T4Q3 %>% select(-X1)
 
 
 #Scottish Household Survey - neighbourhood problems
-T4Q20 <- read_csv("SHS data/data/topic4question20.csv")
+T4Q20 <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/topic4question20.csv")
 #changing * and - to na
 T4Q20 <- na_if(T4Q20, '*')
 T4Q20 <- na_if(T4Q20, '-')
@@ -39,7 +39,7 @@ T4Q20 <- na_if(T4Q20, '-')
 T4Q20 <- T4Q20 %>% select(-X1) %>% rename("Problem" = X4)
 
 #Scottish Household Survey =- access to green space
-T10Q22 <- read_csv("SHS data/data/topic10question22.csv")
+T10Q22 <- read_csv("Shttps://github.com/NicciPotts/website_post/blob/main/data/topic10question22.csv")
 #changing * and - to na
 T10Q22 <- na_if(T10Q22, '*')
 T10Q22 <- na_if(T10Q22, '-')
