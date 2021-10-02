@@ -8,10 +8,10 @@ showtext_auto()
 
 
 #Import data
-trend_data_sex <- read_csv("data/trend_data_sex.csv")
-trend_data_age <- read_csv("data/trend_data_age.csv")
-trend_data_ei <- read_csv("data/trend_data_ei.csv")
-trend_data_lti <- read_csv("data/trend_data_lti.csv")
+trend_data_sex <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/trend_data_sex.csv.csv")
+trend_data_age <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/trend_data_age.csv.csv")
+trend_data_ei <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/trend_data_ei.csv.csv")
+trend_data_lti <- read_csv("https://github.com/NicciPotts/website_post/blob/main/data/trend_data_lti.csv.csv")
 
 
 #Sex breakdown wrangling
